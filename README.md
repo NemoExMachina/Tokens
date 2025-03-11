@@ -1,4 +1,3 @@
-# Tokens
 <html>
     <head>
         <title>Tokens in C</title>
@@ -59,6 +58,8 @@
         <span class="identifier">printf</span>(<span class="string">"Sum: %d\n"</span>, <span class="identifier">sum</span>);
         <span class="keyword">return</span> <span class="constant">0</span>;
     }
+    <br>
+    <img src="C:\Users\Admin\Documents\Binay's Assignments\024NEB840__assignment1\HTML\Programs\Tokens.png" alt="Output" width="400" height="150">
             </pre>
         </div>
     </body>
