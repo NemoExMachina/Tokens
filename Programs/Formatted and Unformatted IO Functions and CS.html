@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Program 1</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f3f3f3;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+            .code-container {
+                background-color: #282c34;
+                color: #61dafb;
+                padding: 16px;
+                border-radius: 8px;
+                font-family: Consolas, "Courier New", monospace;
+            }
+            .code-container span.keyword {
+                color: #d19a66;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="code-container">
+            <h2>Program to display the use of formatted I/O functions.</h2>
+            <pre>
+    #include<<span class="keyword">stdio</span>.h&gt;
+    <span class="keyword">int</span><span class="function"> main</span>() {
+    <span class="keyword">int</span> a;
+    <span class="keyword">char</span> b[20];
+    printf(<span class="string">"Enter any no. ?"</span>);
+    scanf(<span class="string">"%d"</span>, &a);
+    printf(<span class="string">"Enter any string ?"</span>);
+    scanf(<span class="string">"%s"</span>, b);
+    printf(<span class="string">"\nEntered no. is : %d", a</span>);
+    printf(<span class="string">"\nEntered string is : %s", b</span>);
+    <span class="keyword">return</span> 0;
+    }
+    
+    <br>
+    <img src="C:\Users\Admin\Documents\Binay's Assignments\024NEB840__assignment1\HTML\Programs\Formatted.png" alt="Output" width="400" height="150">
+    <div class="code-container">
+            <h2>Program to display the use of unformatted I/O functions.</h2>
+            <pre>
+    #include<<span class="keyword">stdio</span>.h&gt;
+    <span class="keyword">int</span><span class="function"> main</span>() {
+    <span class="keyword">char</span> b[20];
+    printf(<span class="string">"Enter any string ?"</span>);
+    gets(b);
+    printf(<span class="string">"\nEntered string is : "</span>);
+    puts(b);
+    <span class="keyword">return</span> 0;
+    }
+    <br>
+    <img src="C:\Users\Admin\Documents\Binay's Assignments\024NEB840__assignment1\HTML\Programs\Unformatted.png" alt="Output" width="400" height="150">
+
+
+    <div class="code-container">
+        <h2>Program to display the use of Switch case statement.</h2>
+        <pre>
+    #include<<span class="keyword">stdio</span>.h&gt;
+    <span class="keyword">int</span><span class="function"> main</span>() {
+    //Switch variable
+    <span class="keyword">int</span> a = 1;
+    //Switch statement
+    <span class="keyword">switch</span> (a){
+        case 1:
+        printf(<span class="string">"Case 1 is matched."</span>);
+        <span class="keyword">break</span>;
+    
+        case 2:
+        printf(<span class="string">"Case 2 is matched."</span>);
+        <span class="keyword">break</span>;
+    
+        case 3:
+        printf(<span class="string">"Case 3 is matched."</span>);
+        <span class="keyword">break</span>;
+
+        default:
+        printf(<span class="string">"Default case is matched."</span>);
+        <span class="keyword">break</span>;
+    }
+
+    <span class="keyword">return</span> 0;
+    }
+    <br>
+    <img src="C:\Users\Admin\Documents\Binay's Assignments\024NEB840__assignment1\HTML\Programs\Switch Case.png" alt="Output" width="350" height="100">
+
+    <div class="code-container">
+        <h2>Program to display the use of goto statement.</h2>
+        <pre>
+    #include<<span class="keyword">stdio</span>.h&gt;
+    <span class="keyword">int</span><span class="function"> main</span>() {
+        <span class="keyword">int</span> n = 0;  
+        
+        <span class="comment">// If the number is zero, jump to</span>
+        <span class="comment">// jump_here label</span>
+        <span class="keyword">if</span> (n == 0)
+            <span class="keyword">goto</span> jump_here;
+        
+        <span class="comment">// This will be skipped</span>
+        printf(<span class="string">"You entered: %d\n"</span>, n);
+        
+        jump_here:
+        printf(<span class="string">"Exiting the program.\n"</span>);
+        <span class="keyword">return</span> 0;
+    }
+        </pre>
+        <br>
+        <img src="C:\Users\Admin\Documents\Binay's Assignments\024NEB840__assignment1\HTML\Programs\Goto.png" alt="Output" width="400" height="150">    
+        </div>
+    </body>
+</html>
+
